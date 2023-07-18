@@ -12,7 +12,7 @@ public class Program
     }
 
 
-    static void userInterface()
+    public static void userInterface()
     {
         Console.WriteLine("Welcome to the Bank broke boi let's get you some mun yunn");
 
@@ -50,7 +50,7 @@ public class Program
                 Console.WriteLine("Pick an amount to deposit.");
                 string amountPutIn = Console.ReadLine();
                 decimal moneyPutIn = Convert.ToDecimal(amountPutIn);
-                //decimal userBalance = Deposit(moneyPutIn);
+                //decimal userBalance = Deposit(moneyPutIn);h
                 if (moneyPutIn <= 0)
                 {
                     Console.WriteLine("You cannot do that!");
@@ -74,15 +74,23 @@ public static decimal ViewBalance()
 
     }
 
-static decimal Withdraw(decimal withdrawAmount)
+public static decimal Withdraw(decimal withdrawAmount)
     {
-        balance = balance - withdrawAmount;
+        if (withdrawAmount > balance)
+        {
+            Console.WriteLine("You ain't go that much money boy you tripping!!!!");
+        }
+        else
+        {
+            balance -= withdrawAmount;
+        }
 
         return balance;
+     }
 
-    }
 
-    static decimal Deposit(decimal depositAmount)
+
+    public static decimal Deposit(decimal depositAmount)
     {
         balance = balance + depositAmount;
 
@@ -97,6 +105,11 @@ static decimal Withdraw(decimal withdrawAmount)
 
 
  }
+
+
+
+
+
 
 
 

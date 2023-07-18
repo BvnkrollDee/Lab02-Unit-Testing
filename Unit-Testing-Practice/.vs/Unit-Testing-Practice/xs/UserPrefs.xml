@@ -1,5 +1,37 @@
 ﻿<Properties StartupConfiguration="{E5104567-050E-45B6-8D8F-80D391BE8226}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Unit-Testing-Practice FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.ATM PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.ATM PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Unit-Testing-Practice/UnitTest1.cs">
+    <Files>
+      <File FileName="Unit-Testing-Practice/Usings.cs" Line="1" Column="1" />
+      <File FileName="ATM/Program.cs" Line="9" Column="5" />
+      <File FileName="ATM/README.MD" Line="1" Column="1" />
+      <File FileName="Unit-Testing-Practice/UnitTest1.cs" Line="27" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Unit-Testing-Practice">
+            <Node name="Unit-Testing-Practice">
+              <Node name="UnitTest1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unit-Testing-Practice" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
 </Properties>
